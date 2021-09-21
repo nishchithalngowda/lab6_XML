@@ -1,0 +1,14 @@
+<?xml version = "1.0"?>
+<!--BOOK.dtd-a document type definition for the bloodgroup.xml-->
+<!ELEMENT grouptype (Client+)>
+<!ELEMENT blood (name,givetake,book)>
+<!ELEMENT name (Bloodtype)>
+<!ELEMENT Bloodtype (#PCDATA)>
+<!ELEMENT address (DonateBloodTo,ReceiveBloodFrom)>
+<!ELEMENT DonateBloodTo (#PCDATA)>
+<!ELEMENT ReceiveBloodFrom (#PCDATA)>
+
+<!ELEMENT blood (feature)>
+<!ELEMENT feature (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT price (#PCDATA)>

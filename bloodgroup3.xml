@@ -1,0 +1,64 @@
+<?xml version = "1.0"?>
+<!--blood.xml-->
+
+<?xml-stylesheet type="text/css" href= "blood.css"?>
+
+
+<grouptype>
+<blood>
+<name>
+<Bloodtype>  AB+ </Bloodtype>
+</name>
+<givetake>
+<DonateBloodTo>Donate Blood To::AB+ </DonateBloodTo>
+<ReceiveBloodFrom>Receive Blood From:: EVERYONE  </ReceiveBloodFrom>
+</givetake>
+<book>
+<feature> AB+ the universal plasma donor, meaning that AB+ plasma can be transfused into patients who have any other ABO blood type
+</feature>
+</book>
+</blood>
+
+<blood>
+<name>
+<Bloodtype>A+</Bloodtype>
+</name>
+<givetake>
+<DonateBloodTo>Donate Blood To:: A+,AB+</DonateBloodTo>
+<ReceiveBloodFrom>Receive Blood From:: A+,A-,O+,O-  </ReceiveBloodFrom>
+</givetake>
+<book>
+<feature> blood is A positive (A+), it means that your blood contains type-A antigens with the presence of a protein called the rhesus (Rh) factor.
+</feature>
+</book>
+</blood>
+
+<blood>
+<name>
+<Bloodtype>O+</Bloodtype>
+</name>
+<givetake>
+<DonateBloodTo>Donate Blood To::O+A+,B+,AB+</DonateBloodTo>
+<ReceiveBloodFrom>Receive Blood From:: O+,O-  </ReceiveBloodFrom>
+</givetake>
+<book>
+<feature> O positive red blood cells are not universally compatible to all types, but they are compatible to any red blood cells that are positive (A+, B+, O+, AB+
+</feature>
+</book>
+</blood>
+
+<blood>
+<name>
+<Bloodtype> B+ </Bloodtype>
+</name>
+<givetake>
+<DonateBloodTo>Donate Blood To:: B+,AB+</DonateBloodTo>
+<ReceiveBloodFrom>Receive Blood From:: B+,B-,O+,O-  </ReceiveBloodFrom>
+</givetake>
+<book>
+<feature> B+ is a rare blood type that holds tremendous power. Only 8% of the population has B+ blood.
+</feature>
+</book>
+</blood>
+
+</grouptype>
